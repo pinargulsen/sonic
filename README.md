@@ -1,19 +1,14 @@
 # Sonic
-
 English | [中文](README_ZH_CN.md)
-
 A blazingly fast JSON serializing &amp; deserializing library, accelerated by JIT (just-in-time compiling) and SIMD (single-instruction-multiple-data).
-
 ## Requirement
 - Go 1.16~1.21
 - Linux / MacOS / Windows(need go1.17 above)
 - Amd64 ARCH
-
 ## Features
 - Runtime object binding without code generation
 - Complete APIs for JSON value manipulation
 - Fast, fast, fast!
-
 ## Benchmarks
 For **all sizes** of json and **all scenarios** of usage, **Sonic performs best**.
 - [Medium](https://github.com/bytedance/sonic/blob/main/decoder/testdata_test.go#L19) (13KB, 300+ key, 6 layers)
